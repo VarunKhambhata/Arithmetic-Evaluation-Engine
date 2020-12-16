@@ -7,7 +7,7 @@ Open [__ArithmeticEvaluationEngine.pdf__](https://github.com/VarunKhambhata/Arit
 
 keep _"ArithmaticEvaluationEngine"_ folder and your java program in same directory. <br>
 _OR_ <br>
-##Add _"ArithmaticEvaluationEngine"_ folder to classpath in environment variable. <br>
+Add _"ArithmaticEvaluationEngine"_ folder to classpath in environment variable. <br>
 
 ## To run demo program:
   
