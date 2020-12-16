@@ -10,11 +10,8 @@ Add ArithmaticEvaluationEngine folder to classpath in environment variable.
 
 
 <h3>To run demo program:</h3>
- download "ArithmaticEvaluationEngine" folder and "Demo.java"
- keep "ArithmaticEvaluationEngine" folder and "Demo.java" in same folder/directory
- compile demo.java using command line: "javac Demo.java"
- run the compiled program using command line: "java Demo"
- 
- 
+  
  * download "ArithmaticEvaluationEngine" folder and "Demo.java"
- * 2
+ * keep "ArithmaticEvaluationEngine" folder and "Demo.java" in same folder/directory
+ * compile demo.java using command line: "javac Demo.java"
+ * run the compiled program using command line: "java Demo"
