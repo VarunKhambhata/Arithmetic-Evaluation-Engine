@@ -3,7 +3,7 @@ A Java Library To evaluate complex arithmetic expression with variables at run-t
 
 Open [__ArithmeticEvaluationEngine.pdf__](https://github.com/VarunKhambhata/Arithmetic-Evaluation-Engine/blob/main/ArithmeticEvaluationEngine%20package.pdf) for complete guide to use this library.
 
-| This library takes arithmetic expression as a string. The expression can also have many variables. These variables's value can be set from the main program. The library will evaluate expression and give answer in specified data type. The expression doesnot need to be compiled in program as it is in form of string and can be changed at any time during main program execution. <br><br>The Demo.java program displays the capablities of this library.<br><br> Open the above given _"ArithmeticEvaluationEngine.pdf"_ to learn to use this library. |
+| This library takes arithmetic expression as a string. The expression can also have many variables. These variables's value can be set from the main program. The library will evaluate expression and give answer in specified data type. The expression doesnot need to be compiled in program as it is in form of string and can be changed at any time during main program execution. <br><br>The _"Demo.java"_ program displays the capablities of this library.<br><br> Open the above given _"ArithmeticEvaluationEngine.pdf"_ to learn to use this library. |
 | :--- |
 
 
