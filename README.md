@@ -13,13 +13,14 @@ keep _"ArithmaticEvaluationEngine"_ folder and your java program in same directo
    _OR_ <br>
 Add _"ArithmaticEvaluationEngine"_ folder to classpath in environment variable. <br>
 
-In main java program import lbrary using statement: 
+In main java program import library using statement: 
 
 <table>
 <tr>
-  <td> <u> <font style="color:red"> import ArithmeticEvaluationEngine.*; </font></u> </td>
-<tr>
+   <td> <h3>import ArithmeticEvaluationEngine.*; </h3> </td>
+</tr>
 </table>
+
 
 ## To run demo program
   
