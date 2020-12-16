@@ -16,5 +16,5 @@ Add ArithmaticEvaluationEngine folder to classpath in environment variable.
  run the compiled program using command line: "java Demo"
  
  
- * 1
+ *  download "ArithmaticEvaluationEngine" folder and "Demo.java"
  * 2
