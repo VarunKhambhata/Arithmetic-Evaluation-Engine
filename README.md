@@ -10,10 +10,18 @@ Open [__ArithmeticEvaluationEngine.pdf__](https://github.com/VarunKhambhata/Arit
 ## To use this library
 
 keep _"ArithmaticEvaluationEngine"_ folder and your java program in same directory. <br>
-_OR_ <br>
+   _OR_ <br>
 Add _"ArithmaticEvaluationEngine"_ folder to classpath in environment variable. <br>
 
-## To run demo program:
+In main java program import lbrary using statement: 
+
+<table>
+<tr>
+  <td> <u> <font style="color:red"> import ArithmeticEvaluationEngine.*; </font></u> </td>
+<tr>
+</table>
+
+## To run demo program
   
  * download _"ArithmaticEvaluationEngine"_ folder and _"Demo.java"_
  * keep _"ArithmaticEvaluationEngine"_ folder and "Demo.java" in same folder/directory
