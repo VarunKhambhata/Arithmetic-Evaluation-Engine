@@ -30,3 +30,5 @@ In main java program import library using statement:
  _OR_
 
  java Demo.java
+
+ <img width="398" height="458" alt="Screenshot 2026-01-03 at 10 10 43 PM" src="https://github.com/user-attachments/assets/61fd8970-6988-498c-bca0-d21e8497443b" />
