@@ -23,12 +23,10 @@ In main java program import library using statement:
 
 
 ## To run demo program
-  
- * download _"ArithmaticEvaluationEngine"_ folder and _"Demo.java"_
- * keep _"ArithmaticEvaluationEngine"_ folder and "Demo.java" in same folder/directory
- * compile demo.java using command line: _"javac Demo.java"_
- * run the compiled program using command line: _"java Demo"_
 
+ javac Demo.java <br>
+ java Demo <br>
 
-| :warning: **The Source code of this library will not be avaliable for public access currently.** |
-| --- |
+ _OR_
+
+ java Demo.java

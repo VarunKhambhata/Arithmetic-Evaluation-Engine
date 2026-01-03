@@ -8,30 +8,25 @@ import javax.swing.*;
 import javax.swing.text.FlowView;
 import java.awt.Color;
 
-public class Demo
-{
-    public static void main(String[] args) 
-    {
-        try 
-        {
+public class Demo {
+    public static void main(String[] args) {
+        try {
             String eq = new String();
             JFrame F = new JFrame();
             JDialog d = new JDialog(F,"Enter Equation",true);
             d.setLayout(new FlowLayout(FlowLayout.CENTER));
-            d.add(new JLabel("Enter an arithmetic expression with any variable/s:"));
+            d.add(new JLabel("Enter an arithmetic expression with any variables:"));
             JButton b=new JButton("OK");
             JTextField T = new JTextField(25);     
             JLabel l = new JLabel("eg:- 10*a+(5^b-c)");
             l.setForeground(Color.GRAY);
-            b.addActionListener(new ActionListener()
-                        {
-                            public void actionPerformed(ActionEvent ae)    
-                            {   
+            b.addActionListener(new ActionListener(){
+                            public void actionPerformed(ActionEvent ae) {
                                 if(!T.getText().equals(""))
                                     d.setVisible(false);
                             }
                         }
-            );                        
+            ); 
             d.add(T);
             d.add(l);
             d.add(b);
@@ -39,7 +34,7 @@ public class Demo
             d.setLocationRelativeTo(null);
             d.setVisible(true);
             eq =  T.getText();
-            ArithmeticEvaluationEngine ae = new ArithmeticEvaluationEngine(eq, Integer.class);            
+            ArithmeticEvaluationEngine ae = new ArithmeticEvaluationEngine(eq, Integer.class);
             F.setLayout(new FlowLayout());
             F.setSize(330,390);
             F.setLocationRelativeTo(null);
@@ -51,8 +46,7 @@ public class Demo
             n.setPreferredSize(new Dimension(400,80));
             F.add(m);
             ArrayList<String> vars = ae.getVariables();
-            for(String o:vars)
-            {
+            for(String o: vars) {
                 JPanel P = new JPanel();
                 P.setLayout(new FlowLayout());
                 P.add(new JLabel(o));
@@ -75,22 +69,16 @@ public class Demo
             F.add(n);
             F.setDefaultCloseOperation(3); 
             F.setVisible(true); 
-            calc.addActionListener(
-                new ActionListener()
-                {  
-                    public void actionPerformed(ActionEvent e)
-                    {  
-                          for(JTextField f : INP)  
-                          {
+            calc.addActionListener( 
+                new ActionListener() {
+                    public void actionPerformed(ActionEvent e) {
+                          for(JTextField f : INP) {
                                 ae.setVariable(f.getName(), Integer.parseInt(f.getText()));
                           }
                           ans.setText("Answer: "+ae.Value().toString());
-                    }  
-                });  
-                                 
-        } catch (Exception e) 
-        {
-            System.out.println(e);
-        }    
+                    }
+                });
+        }
+        catch (Exception e) { System.out.println(e); }
     }
 }
